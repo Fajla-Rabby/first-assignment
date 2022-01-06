@@ -2,14 +2,13 @@ body {
   font-family: "Poppins", sans-serif;
   font-family: "Roboto", sans-serif;
 }
-h1{
-    font-size: 50px;
+h1 {
+  font-size: 50px;
 }
 .flex {
   display: flex;
   margin-bottom: 150px;
   margin-top: 5%;
-
 }
 .half {
   width: 50%;
@@ -18,34 +17,93 @@ h1{
 .half img {
   width: 70%;
 }
-.colororange{
-    color: rgb(255, 173, 90);
+.colororange {
+  color: rgb(255, 173, 90);
 }
-#line{
-    border-left: 7px solid;
-    border-image: red;
-    border-image-slice: 1;
+#line {
+  border-left: 4px solid rgb(255, 89, 89);
+  height: 150px;
 }
-.button{
-   background-image: tomato;
-   
+.button {
+  text-decoration: none;
+  font-weight: bold;
+  background-color: rgb(255, 89, 89);
+  /* background-image: linear-gradient( pink, tomato); */
+  padding: 15px 25px;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 2px;
 }
-#text-center{
-    text-align: center;
+#text-center {
+  text-align: center;
 }
-.colornavy{
-    color: navy;
+.colornavy {
+  color: navy;
 }
-footer{
-   height: 180px;
+#box{
+    width: 40%;
+    height: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    border-radius: 50px;
 
 }
-.footer-background{
-    background-color: black;
+#mission-box{
+    width: 40%;
+    height: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    border-radius: 24px;
+    background-color: whitesmoke;
 }
-footer h1, p{
-    color: white
+#vission-box{
+    width: 40%;
+    height: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    border-radius: 24px;
+    background-color: lightpink;
 }
-footer span{
-    color: tomato;
+#goals-box{
+    width: 40%;
+    height: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    border-radius: 24px;
+    background-color: lightskyblue;
+}
+#third-back-img{
+    background-image: url(shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 200px;
+    
+    
+}
+#fourth-back-img{
+    background-image: url(shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 200px;
+}
+footer {
+  height: 180px;
+}
+.footer-background {
+  background-color: black;
+}
+footer h1 {
+  color: white;
+}
+footer p {
+  color: white;
+}
+footer span {
+  color: tomato;
 }
