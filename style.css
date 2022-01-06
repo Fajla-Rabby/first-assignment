@@ -1,0 +1,51 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+.flex {
+  display: flex;
+  margin-bottom: 150px;
+  margin-top: 5%;
+
+}
+.half {
+  width: 50%;
+  padding-left: 10%;
+}
+.half img {
+  width: 70%;
+}
+.colororange{
+    color: rgb(255, 173, 90);
+}
+#line{
+    border-left: 7px solid;
+    border-image: red;
+    border-image-slice: 1;
+}
+.button{
+   background-image: tomato;
+   
+}
+#text-center{
+    text-align: center;
+}
+.colornavy{
+    color: navy;
+}
+footer{
+   height: 180px;
+
+}
+.footer-background{
+    background-color: black;
+}
+footer h1, p{
+    color: white
+}
+footer span{
+    color: tomato;
+}
